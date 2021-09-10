@@ -12,7 +12,7 @@ Provisionné les VMs :
 
 - En se déplacant vers le dossier qui contient le vagrant file, lancer les commandes suivant :
 
-sh```
+```sh
 
 vagrant up # pour la creation des VMs
 
