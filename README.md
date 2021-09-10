@@ -20,6 +20,14 @@ vagrant halt # pour arrêter les VMs
 
 vagrant destroy # pour tout supprimer
 
+vagrant ssh nomVM # pour se connecter sur la VM 
+
 ```
 
 ### Ansible notions de base et définitions sont dans la presentation ppt 
+
+Regarder les plays sous les repos : 
+
+- setupNginxClassicPlay
+
+- setupNginxUsingRole

@@ -1,0 +1,13 @@
+---
+
+# commande de lancement
+# ansible-playbook --extra-vars "fullPathIndexFile=./index.html" nginx.yml
+
+- name: Install nginx using Role
+  hosts: demo
+  become: true
+  tasks:
+  - import_role:
+      name: nginxInstallerRole
+    vars:
+      pathIndex: "{{ fullPathIndexFile }}"
